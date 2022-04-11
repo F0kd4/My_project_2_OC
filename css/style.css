@@ -1,5 +1,6 @@
 body 
 {
+    margin-left: 3em;
     font-family: "Raleway", sans-serif;
 }
 
@@ -9,7 +10,7 @@ nav
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 nav ul
@@ -18,13 +19,18 @@ nav ul
     list-style: none;
 }
 
+
 nav img
  {
-     margin-left: 4em;
      height: 70px;
  }
 
 nav li
 {
     margin: 0 3em 0 1em;
+}
+
+nav li:hover
+{
+    color: #0065FC;
 }
