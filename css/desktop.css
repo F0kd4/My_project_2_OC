@@ -1,0 +1,77 @@
+body 
+{
+    margin-left: 3%;
+    font-family: "Raleway", sans-serif;
+}
+
+/*HEADER */
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+}
+
+
+nav img
+ {
+     margin-left: 1.5%;
+     height: 70px;
+ }
+
+nav li
+{
+    margin: -55px 70px 0 -20px;
+    padding-top: 33px;
+}
+
+nav li:hover
+{
+    color: #0065FC;
+    cursor: pointer;
+    border-top: #0065FC solid;
+}
+
+/* MAIN */
+
+
+/* FILTRES */
+#titre_filtres
+{
+
+}
+
+.filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.filtres ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.filtres li
+{
+    font-weight: bold;
+    margin: 0 2em 0 2em;
+}
+
+.fa-solid 
+{
+    padding: 10px;
+	border-radius: 50%; 
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
