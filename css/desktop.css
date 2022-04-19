@@ -1,3 +1,8 @@
+*
+{
+    box-sizing: border-box;
+}
+
 body 
 {
     margin-left: 3%;
@@ -30,9 +35,8 @@ nav img
 
 nav li
 {
-    box-sizing: border-box;
-   padding-left: 30px;
-   padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 35px;
     margin-top: -21px;
 }
@@ -49,6 +53,7 @@ nav li:hover
 /* PARTIE 1 */
 
 /* Barre de recherche */
+
 
 form
 {
@@ -95,6 +100,11 @@ button
     border-radius:  25px 900px 900px 25px;
 }
 
+.mobile_button
+{
+    display: none;
+}
+
 button:hover
 {
     cursor: pointer;
@@ -107,7 +117,6 @@ button:hover
     display: flex;
     justify-content: flex-start space-between;
     align-items: center;
-
 }
 
 
@@ -177,7 +186,7 @@ button:hover
 /* Hebergements à Marseille */
 .accomodation_marseille
 {
-    display: flex;
+    display: block;
     justify-content: space-between;
     flex-direction: column;
     background-color: #DEEBFF;
@@ -186,6 +195,8 @@ button:hover
 .affichage_accomodation
 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 a
@@ -193,7 +204,17 @@ a
     text-decoration: none;
 }
 
+.accomodation_card
+{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
 
+.img_accomodation img
+{
+    width: 200px;
+}
 
 .blue-star
 {
