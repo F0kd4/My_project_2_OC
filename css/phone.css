@@ -1,0 +1,34 @@
+body 
+{
+    margin-left: 3%;
+    font-family: "Raleway", sans-serif;
+}
+
+/* HEADER */
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_logo
+{
+    display: flex;
+    align-content: center;
+}
+
+.nav_header
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav li:hover
+{
+    color: #0065FC;
+    cursor: pointer;
+    border-bottom: 2px #0065FC solid;
+}

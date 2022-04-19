@@ -35,7 +35,6 @@ nav li
    padding-right: 30px;
     padding-top: 35px;
     margin-top: -21px;
-    margin-right: ;
 }
 
 nav li:hover
@@ -46,6 +45,8 @@ nav li:hover
 }
 
 /* MAIN */.
+
+/* PARTIE 1 */
 
 /* Barre de recherche */
 
@@ -153,7 +154,7 @@ button:hover
     background-color: #DEEBFF;
 }
 
-/* SECTION HERBERGEMENTS MARSEILLE */
+/* POINT INFORMATION */
 
 .fa-info
 {
@@ -164,4 +165,48 @@ button:hover
     border-radius: 50%;
     padding-top: 2.5px;
     padding-bottom: 2.5px;
+}
+/* DEUXIEME PARTIE GENERALE */
+.part2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Hebergements à Marseille */
+.accomodation_marseille
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #DEEBFF;
+}
+
+.affichage_accomodation
+{
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+.blue-star
+{
+    color:#0065FC;
+}
+
+.grey-star
+{
+    color: rgb(209, 205, 205);
+}
+
+/* LES PLUS POPULAIRES */
+.most_popular
+{
+   
 }
