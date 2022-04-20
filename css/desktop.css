@@ -55,11 +55,6 @@ nav li:hover
 /* Barre de recherche */
 
 
-form
-{
-    display: block;
-}
-
 .fa-location-dot
 {
     margin-right: -4px; 
@@ -90,7 +85,7 @@ button
 {
     font-weight:500 ;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     border-color: #0065FC;
     margin-left: -5px; 
     background-color: #0065FC;
