@@ -1,166 +1,147 @@
-*
-{
+* {
     box-sizing: border-box;
 }
 
-body 
-{
+body {
     margin-left: 3%;
     font-family: "Raleway", sans-serif;
 }
 
 /* HEADER */
 
-header
-{
+header {
     display: flex;
     flex-direction: column;
 }
 
-.nav_header
-{
+.nav_header {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
 
-nav img
- {  
+nav img {
     margin-left: 37%;
-     height: 70px;
- }
+    height: 70px;
+}
 
- nav li
- {
-     margin-left: -35px;
-     margin-right: 35px;
- }
- 
+nav ul {
+    padding: 0;
+}
 
-nav li:hover
-{
+nav li {
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px #DEEBFF solid;
+}
+
+
+nav li:hover {
     color: #0065FC;
     cursor: pointer;
     border-bottom: 2px #0065FC solid;
 }
 
-/* MAIN */.
+/* MAIN */
 
 /* PARTIE 1 */
 
 /* Barre de recherche */
 
-form
-{
+form {
     display: block;
 }
 
-.fa-location-dot
-{
-    margin-right: -4px; 
+.fa-location-dot {
+    margin-right: -4px;
     padding: 13px;
     background-color: #F2F2F2;
-    border-radius: 30% 2% 2% 30%; 
+    border-radius: 30% 2% 2% 30%;
 }
 
-.fa-location-dot:hover
-{
+.fa-location-dot:hover {
     cursor: pointer;
 }
 
-input
-{
+input {
     padding: 10px;
     border-color: #F2F2F2;
     border-style: solid;
 }
 
-input:focus
-{
+input:focus {
     padding: 10px;
     border-color: #F2F2F2;
 }
 
-button
-{
-    font-weight:500 ;
+button {
+    font-weight: 500;
     border-style: solid;
     border-width: 1.5px;
     border-color: #0065FC;
-    margin-left: -35px; 
+    margin-left: -35px;
     background-color: #0065FC;
     color: white;
-    padding : 12px;
+    padding: 12px;
     border-radius: 35%;
 }
 
-.desktop_button
-{
-    display: none;
-}
-
-button:hover
-{
+button:hover {
     cursor: pointer;
 }
 
 /* FILTRES */
 
-.filtres
-{
+.filtres {
     display: flex;
     flex-direction: column;
     justify-content: flex-start space-between;
 }
 
 
-.filtres ul
-{
+.filtres ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
 
-.filtres li 
-{
+.filtres li {
     font-weight: bold;
     margin: 0 20px 10px 20px;
     border: 2px #DEEBFF solid;
     border-radius: 25px;
     padding: 0px;
-    padding-right: 10px;   
+    padding-right: 10px;
 }
 
-.filtres li 
-{
+.filtres li {
     cursor: pointer;
 }
 
-.fa-dog, .fa-heart, .fa-child-reaching, .fa-money-bill-wave
-{
+.fa-dog,
+.fa-heart,
+.fa-child-reaching,
+.fa-money-bill-wave {
     padding: 13px;
-	border-radius: 25px; 
+    border-radius: 25px;
     background-color: #DEEBFF;
     color: #0065FC;
 }
 
-.fa-child-reaching
-{
+.fa-child-reaching {
     padding-top: 12px;
     padding-bottom: 14px;
     padding-right: 15px;
     padding-left: 14px;
 }
 
-.filtres li:hover
-{
+.filtres li:hover {
     background-color: #DEEBFF;
 }
 
 /* POINT INFORMATION */
 
-.fa-info
-{
+.fa-info {
     font-size: small;
     color: #0065FC;
     border: 2px solid #F2F2F2;
