@@ -1,18 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin-left: 3%;
-    font-family: "Raleway", sans-serif;
-}
-
-a {
-    width: 100%;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
 /*HEADER */
 
 nav {
@@ -49,36 +34,13 @@ nav li:hover {
 
 /* MAIN */
 
+body {
+    margin-left: 3%;
+}
+
 /* PARTIE 1 */
 
 /* Barre de recherche */
-
-form {
-    display: block;
-}
-
-.fa-location-dot {
-    margin-right: -4px;
-    padding: 13px;
-    padding-top: 12.5px;
-    background-color: #F2F2F2;
-    border-radius: 30% 2% 2% 30%;
-}
-
-.fa-location-dot:hover {
-    cursor: pointer;
-}
-
-input {
-    padding: 10px;
-    border-color: #F2F2F2;
-    border-style: solid;
-}
-
-input:focus {
-    padding: 10px;
-    border-color: #F2F2F2;
-}
 
 button {
     font-weight: 500;
@@ -89,15 +51,11 @@ button {
     background-color: #0065FC;
     color: white;
     padding: 10.5px;
-    border-radius: 25px 900px 900px 25px;
+    border-radius: 0 25px 25px 0;
 }
 
 .mobile_button {
     display: none;
-}
-
-button:hover {
-    cursor: pointer;
 }
 
 /* FILTRES */
@@ -114,51 +72,6 @@ button:hover {
     justify-content: flex-start;
     flex-wrap: wrap;
     list-style: none;
-}
-
-.filtres li {
-    font-weight: bold;
-    border: 2px #DEEBFF solid;
-    border-radius: 25px;
-    padding: 0px;
-    padding-right: 10px;
-}
-
-.filtres li {
-    cursor: pointer;
-}
-
-.fa-dog,
-.fa-heart,
-.fa-child-reaching,
-.fa-money-bill-wave {
-    padding: 13px;
-    border-radius: 25px;
-    background-color: #DEEBFF;
-    color: #0065FC;
-}
-
-.fa-child-reaching {
-    padding-top: 12px;
-    padding-bottom: 14px;
-    padding-right: 15px;
-    padding-left: 14px;
-}
-
-.filtres li:hover {
-    background-color: #DEEBFF;
-}
-
-/* POINT INFORMATION */
-
-.fa-info {
-    font-size: small;
-    color: #0065FC;
-    border: 2px solid #F2F2F2;
-    padding: 7px;
-    border-radius: 50%;
-    padding-top: 2.5px;
-    padding-bottom: 2.5px;
 }
 
 /* DEUXIEME PARTIE GENERALE */
@@ -342,10 +255,6 @@ button:hover {
 
 .section_activities_title {
     margin-top: 4%;
-}
-
-.acti_body_card h4 {
-    /* margin: 0; */
 }
 
 .acti_card_full {
