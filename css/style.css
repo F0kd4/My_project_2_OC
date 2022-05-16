@@ -101,3 +101,15 @@ button:hover {
 .grey-star {
     color: rgb(209, 205, 205);
 }
+
+/* Part3 : Avtivités */
+
+/* Footer */
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.foot_li {
+    list-style: none;
+}

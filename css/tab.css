@@ -384,7 +384,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: auto;
+    width: 100%;
     height: 100%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -409,7 +409,6 @@ footer {
     height: fit-content;
     display: flex;
     flex-direction: row;
-    background-color: #F2F2F2;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -423,6 +422,5 @@ footer {
 }
 
 .foot_li {
-    list-style: none;
     padding: 0;
 }
