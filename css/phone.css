@@ -125,9 +125,9 @@ button {
     flex-direction: row;
 }
 
-.pop_card:hover {
+/* .pop_card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.466);
-}
+} */
 
 .img_pop {
     border-radius: 20px 0px 0px 20px;
@@ -305,11 +305,15 @@ button {
 /* footer */
 
 
-.foot_li {
+.footer_li {
     padding-left: 9%;
 }
 
-.foot_column h4 {
+.footer_li li {
+    padding-bottom: 3%;
+}
+
+.footer_section h4 {
     padding-top: 6%;
     padding-left: 9%;
 }

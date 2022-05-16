@@ -118,6 +118,10 @@ button {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.466);
 } */
 
+.card_description {
+    margin: 0;
+}
+
 .img_accomodation {
 
     width: 100%;
@@ -127,7 +131,9 @@ button {
 }
 
 .accomodation_card_body {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 40%;
 }
 
@@ -196,6 +202,7 @@ button {
 } */
 
 .img_pop {
+    object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     width: 40%;
     height: 100%;
@@ -207,7 +214,7 @@ button {
     justify-content: space-between;
     width: 60%;
     height: 100%;
-    padding-left: 7px;
+    padding: 4%;
 }
 
 .pop_card_body h4 {
@@ -399,13 +406,21 @@ footer {
     padding-left: 30px;
 }
 
-.foot_column {
+.footer_section {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
     width: 30%;
 }
 
-.foot_li {
+.footer_li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 0;
+
+}
+
+.footer_li li {
+    padding-bottom: 5%;
 }
